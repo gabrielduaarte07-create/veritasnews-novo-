@@ -77,6 +77,10 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
 }
 
 @media (max-width: 768px) {
+    .news-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
 
   header {
     padding: 20px 0;
@@ -100,7 +104,9 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
   }
 
   .card img {
-    height: 160px;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
   }
 
   .card-body {
@@ -111,5 +117,9 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
   .article-view {
     padding: 25px;
   }
-
+}
+card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
 }
