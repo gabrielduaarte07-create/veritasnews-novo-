@@ -79,7 +79,7 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
 @media (max-width: 768px) {
     .news-grid {
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  gap: 10px;
 }
 
   header {
@@ -96,7 +96,7 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
   }
 
   .container {
-    padding: 0 10px;
+    padding: 0 8px;
   }
 
   .carousel-caption {
@@ -104,13 +104,22 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
   }
 
   .card img {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     width: 100%;
     object-fit: cover;
   }
 
-  .card-body {
-    padding: 15px;
+ card-body {
+  padding: 10px;
+}
+
+.card-body h3 {
+  font-size: 14px;
+}
+
+.card-body p {
+  font-size: 12px;
+}
   }
 
   .content-section,
