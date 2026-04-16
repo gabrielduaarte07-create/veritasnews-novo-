@@ -1,0 +1,115 @@
+:root {
+    --primary: #0a192f;
+    --accent: #d32f2f;
+    --bg: #f0f2f5;
+    --white: #ffffff;
+    --text-main: #1a1a1a;
+    --text-sub: #444;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background: var(--bg); color: var(--text-main); line-height: 1.6; }
+
+/* HEADER */
+header { background: var(--primary); color: var(--white); padding: 30px 0; text-align: center; border-bottom: 5px solid var(--accent); }
+.logo { font-size: 40px; font-weight: 900; letter-spacing: -2px; }
+.logo span { color: var(--accent); }
+
+/* NAVEGAÇÃO */
+nav { background: var(--white); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; overflow-x: auto; }
+.nav-btn { padding: 18px 20px; border: none; background: none; font-weight: 700; cursor: pointer; color: #555; text-transform: uppercase; font-size: 13px; white-space: nowrap; transition: 0.3s; }
+.nav-btn.active { color: var(--accent); border-bottom: 3px solid var(--accent); }
+
+.container { max-width: 1100px; margin: 30px auto; padding: 0 20px; min-height: 75vh; }
+
+/* CARROSSEL */
+.carousel { width: 100%; height: clamp(200px, 50vw, 400px); position: relative; overflow: hidden; border-radius: 12px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+.carousel-inner { display: flex; transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); height: 100%; }
+.carousel-item { min-width: 100%; position: relative; }
+.carousel-item img { width: 100%; height: 100%; object-fit: cover; }
+.carousel-caption { position: absolute; bottom: 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); color: white; width: 100%; padding: 50px 25px; }
+
+/* GRID */
+.news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 30px; }
+.card { background: var(--white); border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); cursor: pointer; transition: 0.3s; display: flex; flex-direction: column; }
+.card:hover { transform: translateY(-8px); box-shadow: 0 15px 35px rgba(0,0,0,0.15); }
+.card img { width: 100%; height: 210px; object-fit: cover; background: #ddd; }
+.card-body { padding: 25px; flex-grow: 1; }
+.card-body span { color: var(--accent); font-size: 11px; font-weight: 800; text-transform: uppercase; }
+.card-body h3 { font-size: 20px; color: var(--primary); margin: 10px 0; line-height: 1.3; }
+.card-body p { font-size: 14px; color: var(--text-sub); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* OUTROS */
+.content-section { background: white; padding: 50px; border-radius: 12px; display: none; box-shadow: 0 5px 20px rgba(0,0,0,0.05); animation: fadeIn 0.4s; }
+.form-group { margin-bottom: 20px; }
+label { display: block; margin-bottom: 8px; font-weight: bold; }
+input, textarea { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; outline: none; }
+input:focus { border-color: var(--accent); }
+.btn-enviar { background: var(--accent); color: white; padding: 15px; border: none; border-radius: 6px; width: 100%; font-weight: bold; cursor: pointer; font-size: 16px; transition: 0.3s; }
+.btn-enviar:hover { background: var(--primary); }
+
+.article-view { display: none; background: white; padding: 50px; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); animation: fadeIn 0.5s; }
+
+footer { background: var(--primary); color: white; padding: 60px 20px; text-align: center; margin-top: 60px; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.page {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.carousel-caption h2 {
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.nav-container {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .nav-btn {
+    padding: 12px 10px;
+    font-size: 11px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .carousel-caption {
+    padding: 20px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .content-section,
+  .article-view {
+    padding: 25px;
+  }
+
+}

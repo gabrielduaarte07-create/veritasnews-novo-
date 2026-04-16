@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas News | Portal Profissional 2026</title>
+
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VERITAS<span>NEWS</span></div>
+</header>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <button class="nav-btn active" onclick="navegar('destaques', this)">Início</button>
+        <button class="nav-btn" onclick="navegar('brasil', this)">Brasil</button>
+        <button class="nav-btn" onclick="navegar('mundo', this)">Mundo</button>
+        <button class="nav-btn" onclick="navegar('economia', this)">Economia</button>
+        <button class="nav-btn" onclick="navegar('historicas', this)">Históricas</button>
+        <button class="nav-btn" onclick="navegar('sobre', this)">Sobre</button>
+        <button class="nav-btn" onclick="navegar('novidades', this)">Novidades</button>
+        <button class="nav-btn" onclick="navegar('servicos', this)">Serviços</button>
+        <button class="nav-btn" onclick="navegar('contato', this)">Contato</button>
+    </div>
+</nav>
+
+<div class="container">
+
+  
+    <div id="home-header" class="carousel">
+        <div class="carousel-inner" id="carousel-inner">
+
+            <div class="carousel-item">
+                <img src="imagens/iafuturo.png">
+                <div class="carousel-caption">
+                    <h2>IA Generativa: O Novo Horizonte Acadêmico Brasileiro</h2>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imagens/hverde.png">
+                <div class="carousel-caption">
+                    <h2>Brasil assume liderança global na exportação de Hidrogênio Verde</h2>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imagens/cirurgia5G.png">
+                <div class="carousel-caption">
+                    <h2>Telemedicina: A primeira cirurgia via 5G entre SP e Amazonas</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div id="view-lista" class="news-grid"></div>
+
+    
+    <div id="view-sobre" class="content-section">
+        <h1>Sobre a Veritas News</h1>
+        <br>
+
+        <p>A <strong>Veritas News</strong>  é uma empresa voltada para a produção e divulgação de notícias atualizadas, confiáveis e relevantes, com foco em temas como Brasil, mundo, economia e tecnologia.
+
+Nosso principal objetivo é oferecer informações de qualidade que contribuam para o conhecimento e o aprendizado, especialmente no ambiente acadêmico. Buscamos apresentar conteúdos claros, organizados e de fácil compreensão, auxiliando estudantes, pesquisadores e o público em geral.
+
+A VeritasNews também valoriza a responsabilidade na informação, priorizando conteúdos verificados e de caráter educativo, evitando a disseminação de notícias falsas ou não confirmadas.
+
+Além disso, a empresa está em constante desenvolvimento, buscando melhorar a experiência dos usuários por meio de um site mais organizado, acessível e atualizado.
+
+Nosso compromisso é com a informação confiável e com o apoio ao desenvolvimento acadêmico e social por meio do conhecimento.</p>
+
+        <br>
+
+        <p>Fundadores:</p>
+        <p>Josué Mendes Martins</p>
+        <p>Gabriel Serafim de Oliveira Cruz</p>
+        <p>José Pedro Varela Reggiori</p>
+        <p>Gabriel Duarte Passos</p>
+
+        <br>
+
+        <p>Nosso objetivo é levar informação de qualidade e acessível para todos.</p>
+    </div>
+
+   
+    <div id="view-servicos" class="content-section">
+    <h1>Serviços</h1>
+    <br>
+
+    <p>
+    A VeritasNews é uma empresa dedicada à produção, curadoria e divulgação de informações atualizadas, confiáveis e relevantes, com ênfase em conteúdos voltados ao meio acadêmico. Seus serviços são estruturados para atender estudantes, pesquisadores e profissionais que necessitam de fontes informativas de qualidade para embasar estudos e análises.
+    </p>
+
+    <br>
+
+    <p>
+    Entre os principais serviços oferecidos, destaca-se a cobertura de notícias recentes sobre o Brasil e o cenário internacional, proporcionando uma visão ampla e contextualizada dos acontecimentos que impactam a sociedade contemporânea. A empresa também atua na divulgação de conteúdos relacionados à economia, apresentando análises, tendências e indicadores que auxiliam na compreensão do mercado e das dinâmicas financeiras.
+    </p>
+
+    <br>
+
+    <p>
+    No campo da tecnologia, a VeritasNews oferece informações atualizadas sobre inovações, avanços científicos e transformações digitais, contribuindo para a formação de conhecimento em áreas estratégicas e em constante evolução. Todos os conteúdos são organizados de forma acessível e objetiva, facilitando sua utilização em trabalhos acadêmicos, pesquisas e atividades educacionais.
+    </p>
+
+    <br>
+
+    <p>
+    Dessa forma, a VeritasNews se posiciona como uma fonte de apoio informacional confiável, promovendo o acesso ao conhecimento e incentivando o desenvolvimento crítico e analítico de seus usuários.
+    </p>
+</div>
+
+    
+    <div id="view-contato" class="content-section">
+        <h1>Fale Conosco</h1>
+        <br>
+
+        <div class="form-group">
+            <label>Nome:</label>
+            <input type="text" id="ipt-nome">
+        </div>
+
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" id="ipt-email">
+        </div>
+
+        <div class="form-group">
+            <label>Mensagem:</label>
+            <textarea id="ipt-msg"></textarea>
+        </div>
+
+        <button class="btn-enviar" onclick="enviarDados()">Enviar</button>
+    </div>
+
+    
+    <article id="view-leitura" class="article-view">
+        <button class="back-btn" onclick="voltar()">← Voltar</button>
+        <div id="corpo-materia"></div>
+    </article>
+
+</div>
+
+<footer>
+    <p><strong>Veritas News S.A. | 2026</strong></p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
