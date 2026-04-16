@@ -8,7 +8,7 @@ destaques: [
 id: 1,
 cat: "Tecnologia",
 titulo: "IA Generativa: O Avanço Acadêmico",
-foto: "iafuturo.png",
+foto: "imagens/iafuturo.png",
 resumo: "Universidades brasileiras adotam IA no ensino.",
 texto: `<h2>Inovação nas Salas de Aula</h2>
 <p> Inteligência artificial generativa está transformando profundamente o ensino superior no Brasil. Instituições passaram a integrar ferramentas inteligentes que auxiliam alunos na escrita de código, interpretação de algoritmos e resolução de problemas complexos.</p>
