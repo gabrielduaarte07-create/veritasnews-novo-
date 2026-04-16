@@ -8,7 +8,7 @@ destaques: [
 id: 1,
 cat: "Tecnologia",
 titulo: "IA Generativa: O Avanço Acadêmico",
-foto: "imagens/iafuturo.png",
+foto: "iafuturo.png",
 resumo: "Universidades brasileiras adotam IA no ensino.",
 texto: `<h2>Inovação nas Salas de Aula</h2>
 <p> Inteligência artificial generativa está transformando profundamente o ensino superior no Brasil. Instituições passaram a integrar ferramentas inteligentes que auxiliam alunos na escrita de código, interpretação de algoritmos e resolução de problemas complexos.</p>
@@ -26,7 +26,7 @@ texto: `<h2>Inovação nas Salas de Aula</h2>
 id: 2,
 cat: "Negócios",
 titulo: "Hidrogênio Verde no Ceará",
-foto: "imagens/hverde.png",
+foto: "hverde.png",
 resumo: "Brasil lidera energia limpa.",
 texto: `<h1>Hidrogênio verde no Brasil: liderança e destaque do Ceará na produção</h1>
 
@@ -70,7 +70,7 @@ texto: `<h1>Hidrogênio verde no Brasil: liderança e destaque do Ceará na prod
 id: 3,
 cat: "Saúde",
 titulo: "Cirurgia Robótica 5G",
-foto: "imagens/cirurgia5G.png",
+foto: "cirurgia5G.png",
 resumo: "Operações à distância avançam.",
 texto: `<h2>Revolução na Medicina</h2>
 <h1>Cirurgia robótica 5G e sua chegada ao Brasil</h1>
@@ -110,7 +110,7 @@ texto: `<h2>Revolução na Medicina</h2>
 id: 4,
 cat: "Educação",
 titulo: "Programação no Ensino",
-foto: "imagens/ensino.png",
+foto: "ensino.png",
 resumo: "Nova disciplina obrigatória.",
 texto: `<h1>Programação nas escolas e a redução das desigualdades tecnológicas</h1><p>A introdução da programação nas escolas tem sido cada vez mais discutida como uma estratégia essencial para preparar os estudantes para o futuro. Em um mundo cada vez mais digital, aprender a programar não é apenas uma habilidade técnica, mas também uma forma de ampliar oportunidades educacionais e profissionais.</p><h2>O que é o ensino de programação?</h2><p>O ensino de programação consiste em ensinar os alunos a criar códigos, desenvolver aplicativos, sites e resolver problemas usando lógica computacional. Essa prática estimula o pensamento crítico, a criatividade e a capacidade de resolução de problemas.</p><p>Além disso, ajuda os estudantes a entenderem melhor como funcionam as tecnologias que utilizam no dia a dia.</p><h2>Impacto na redução das desigualdades</h2><p>A inclusão da programação no currículo escolar pode ajudar a reduzir desigualdades tecnológicas ao democratizar o acesso ao conhecimento digital. Estudantes de diferentes classes sociais passam a ter contato com habilidades que antes eram restritas a cursos especializados.</p><p>Isso aumenta as chances de inserção no mercado de trabalho em áreas de alta demanda, como tecnologia da informação, ciência de dados e desenvolvimento de software.</p><h2>Benefícios para os estudantes</h2><p>Entre os principais benefícios do ensino de programação estão o desenvolvimento do raciocínio lógico, melhora no desempenho escolar e maior preparação para profissões do futuro.</p><p>Além disso, a programação incentiva a autonomia e a capacidade de inovação dos alunos.</p><h2>Desafios na implementação</h2><p>Apesar das vantagens, ainda existem desafios como a falta de professores capacitados, infraestrutura tecnológica insuficiente e desigualdade de acesso a computadores e internet em algumas regiões.</p><p>Superar esses obstáculos é fundamental para garantir que todos os estudantes possam se beneficiar dessa iniciativa.</p><h2>Conclusão</h2><p>A inclusão da programação nas escolas é uma medida importante para o futuro da educação e pode ser uma ferramenta poderosa na redução das desigualdades tecnológicas. Ao oferecer esse conhecimento desde cedo, o sistema educacional contribui para uma sociedade mais justa e preparada para a era digital.</p>
 `
@@ -119,7 +119,7 @@ texto: `<h1>Programação nas escolas e a redução das desigualdades tecnológi
 id: 5,
 cat: "Espaço",
 titulo: "Satélite Brasileiro",
-foto: "imagens/satelite.png",
+foto: "satelite.png",
 resumo: "Brasil avança no espaço.",
 texto: `<h1>Satélite brasileiro lançado</h1>
 
@@ -152,7 +152,7 @@ brasil: [
 id: 6,
 cat: "Economia",
 titulo: "PIB Cresce 3.2%",
-foto: "imagens/ponte.png",
+foto: "ponte.png",
 resumo: "Economia em expansão.",
 texto: `
 <h1>Crescimento de 3,2% no PIB do Brasil</h1>
@@ -177,7 +177,7 @@ texto: `
 id: 7,
 cat: "Ambiente",
 titulo: "Queda no Desmatamento",
-foto: "imagens/floresta.png",
+foto: "floresta.png",
 resumo: "Menor índice histórico.",
 texto: `
 <h1>Queda do desmatamento no Brasil: avanços e desafios ambientais</h1>
@@ -215,7 +215,7 @@ texto: `
 id: 8,
 cat: "Sociedade",
 titulo: "Brasil Conectado",
-foto: "imagens/homemnocomputador.png",
+foto: "homemnocomputador.png",
 resumo: "Internet para todos.",
 texto: `
 <h1>Inclusão digital para todos: conectando a sociedade ao futuro</h1>
@@ -244,7 +244,7 @@ texto: `
 id: 9,
 cat: "Ciência",
 titulo: "Vacina Brasileira",
-foto: "imagens/vacina.png",
+foto: "vacina.png",
 resumo: "Avanço na saúde.",
 texto: `
 <h1>Vacina contra a dengue desenvolvida no Brasil</h1>
@@ -285,7 +285,7 @@ texto: `
 id: 10,
 cat: "Turismo",
 titulo: "Rio Ecoturismo",
-foto: "imagens/pontoturistico.png",
+foto: "pontoturistico.png",
 resumo: "Turismo sustentável.",
 texto: `
 <h1>Ecoturismo no Brasil: Rio de Janeiro se destaca como principal destino</h1>
@@ -325,7 +325,7 @@ mundo: [
 id: 11,
 cat: "Espaço",
 titulo: "Colônia em Marte",
-foto: "imagens/baselaranja.png",
+foto: "baselaranja.png",
 resumo: "Primeira base humana.",
 texto: `
 <p>A possibilidade de uma colônia humana em Marte deixou de ser apenas ficção científica e passou a ser um dos principais objetivos de agências espaciais e empresas privadas ao redor do mundo. O planeta vermelho, conhecido cientificamente como Marte, é hoje o foco de missões exploratórias que buscam viabilizar a presença humana permanente fora da Terra.</p>
@@ -361,7 +361,7 @@ No entanto, o projeto ainda enfrenta desafios éticos, financeiros e tecnológic
 id: 12,
 cat: "Clima",
 titulo: "Fim do Plástico",
-foto: "imagens/tartaruga.png",
+foto: "tartaruga.png",
 resumo: "Acordo global.",
 texto: `
 <h1>Acordo global para eliminar o plástico descartável avança entre países</h1>
@@ -414,7 +414,7 @@ texto: `
 id: 13,
 cat: "Tecnologia",
 titulo: "Supremacia Quântica",
-foto: "imagens/quantico.png",
+foto: "quantico.png",
 resumo: "Novo marco tecnológico.",
 texto: `
 <h1>Supremacia quântica e a revolução na ciência moderna</h1>
@@ -456,7 +456,7 @@ texto: `
 id: 14,
 cat: "Saúde",
 titulo: "Terapia Alzheimer",
-foto: "imagens/cientista.png",
+foto: "cientista.png",
 resumo: "Nova esperança.",
 texto: `
 <h1>Terapias para o Alzheimer e as novas esperanças na ciência</h1>
@@ -497,7 +497,7 @@ texto: `
 id: 15,
 cat: "Geopolítica",
 titulo: "Cabo Europa-Brasil",
-foto: "imagens/mapa.png",
+foto: "mapa.png",
 resumo: "Internet mais rápida.",
 texto: `
 <h1>Cabo Europa-Brasil: a nova ponte digital entre continentes</h1>
@@ -544,7 +544,7 @@ economia: [
 id: 16,
 cat: "Moedas",
 titulo: "DREX Cresce",
-foto: "imagens/moeda.png",
+foto: "moeda.png",
 resumo: "Moeda digital.",
 texto: `
 <h1>DREX avança no Brasil e pode transformar o sistema financeiro</h1>
@@ -565,7 +565,7 @@ Se implementado com sucesso, o DREX pode posicionar o Brasil como um dos lídere
 id: 17,
 cat: "Trabalho",
 titulo: "Semana 4 Dias",
-foto: "imagens/escritorio.png",
+foto: "escritorio.png",
 resumo: "Produtividade cresce.",
 texto: `
 <h1>Semana de 4 dias de trabalho ganha força e divide opiniões</h1>
@@ -588,7 +588,7 @@ Especialistas acreditam que o modelo pode se tornar mais comum no futuro, especi
 id: 18,
 cat: "Energia",
 titulo: "Energia Eólica",
-foto: "imagens/offshore.png",
+foto: "offshore.png",
 resumo: "Investimentos crescem.",
 texto: `
 <h1>Energia eólica cresce e se consolida como solução sustentável</h1>
@@ -609,7 +609,7 @@ Ainda assim, especialistas apontam que a energia eólica deve continuar crescend
 id: 19,
 cat: "Cidades",
 titulo: "Fazendas Urbanas",
-foto: "imagens/fazenda.png",
+foto: "fazenda.png",
 resumo: "Agricultura urbana.",
 texto: `
 <h1>Fazendas urbanas transformam a produção de alimentos nas cidades</h1>
@@ -630,7 +630,7 @@ Apesar do crescimento, o modelo ainda enfrenta desafios como o alto custo inicia
 id: 20,
 cat: "Bolsa de Valores",
 titulo: "Investidores Jovens",
-foto: "imagens/bolsa.png",
+foto: "bolsa.png",
 resumo: "Recorde histórico.",
 texto: `
 <h1>Jovens investidores mudam o perfil do mercado financeiro</h1>
@@ -656,7 +656,7 @@ historicas: [
 id: 21,
 cat: "Ciência",
 titulo: "Penicilina 100 anos",
-foto: "imagens/laboratorio.png",
+foto: "laboratorio.png",
 resumo: "Marco histórico.",
 texto: `
 <h1>Penicilina completa 100 anos e segue essencial na medicina</h1>
@@ -675,7 +675,7 @@ Organizações de saúde alertam para a necessidade de uso consciente e desenvol
 id: 22,
 cat: "Espaço",
 titulo: "Apollo 11",
-foto: "imagens/apollo.png",
+foto: "apollo.png",
 resumo: "Lua em 8K.",
 texto: `
 <h1>Apollo 11: o marco que levou o homem à Lua</h1>
@@ -694,7 +694,7 @@ Até hoje, o feito inspira novas missões espaciais e projetos de exploração d
 id: 23,
 cat: "Brasil",
 titulo: "Independência",
-foto: "imagens/independencia.png",
+foto: "independencia.png",
 resumo: "204 anos.",
 texto: `
 <h1>Independência do Brasil completa mais de dois séculos</h1>
@@ -731,7 +731,7 @@ O tema continua sendo amplamente estudado e debatido, especialmente em contextos
 id: 24,
 cat: "Geopolítica",
 titulo: "Queda do Muro de Berlim",
-foto: "imagens/muro.png",
+foto: "muro.png",
 resumo: "Fim da divisão.",
 texto: `
 <h1>Queda do Muro de Berlim simboliza fim de uma era</h1>
@@ -771,7 +771,7 @@ texto: `
 id: 25,
 cat: "Invenções",
 titulo: "Internet 60 anos",
-foto: "imagens/computador.png",
+foto: "computador.png",
 resumo: "Evolução digital.",
 texto: `
 <h1>Internet completa 60 anos e redefine a sociedade moderna</h1>
@@ -794,7 +794,7 @@ novidades: [
 id: 30,
 cat: "Desenvolvimento de website",
 titulo: "Programação",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Desenvolvimento de habilidades.",
 texto: "<p>Estamos desenvolvendo nossas habilidades em html, css e javascript para que possamos melhorar este site e também desenvolver novos.</p>"
 },
@@ -802,7 +802,7 @@ texto: "<p>Estamos desenvolvendo nossas habilidades em html, css e javascript pa
 id: 31,
 cat: "Proteção",
 titulo: "Tecnologia",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Verificação de fatos.",
 texto: "<p>Uma das principais metas futuras da VeritasNews é implementar um sistema avançado de verificação de fatos (fact-checking), garantindo ainda mais confiabilidade nas informações divulgadas.</p>"
 },
@@ -810,7 +810,7 @@ texto: "<p>Uma das principais metas futuras da VeritasNews é implementar um sis
 id: 32,
 cat: "Melhorias",
 titulo: "Melhoras neste website",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Verificação de fatos.",
 texto: "<p>A VeritasNews pretende melhorar seu site para deixá-lo mais rápido, organizado e fácil de usar, facilitando o acesso às notícias pelos usuários.</p>"
 
@@ -819,7 +819,7 @@ texto: "<p>A VeritasNews pretende melhorar seu site para deixá-lo mais rápido,
 id: 33,
 cat: "Atualizações",
 titulo: "Notícias",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Ampliação das atualizações de notícias.",
 texto: "<p>A VeritasNews busca aumentar a frequência de publicações, trazendo notícias mais atualizadas ao longo do dia.</p>"
 
@@ -829,7 +829,7 @@ texto: "<p>A VeritasNews busca aumentar a frequência de publicações, trazendo
 id: 34,
 cat: "Comentários",
 titulo: "Discussão sobre notícias",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Espaço para comentários.",
 texto: "A VeritasNews pretende adicionar um sistema de comentários nas notícias, permitindo que os leitores interajam e compartilhem opiniões de forma simples.</p>"
 },
@@ -837,7 +837,7 @@ texto: "A VeritasNews pretende adicionar um sistema de comentários nas notícia
 id: 35,
 cat: "Lembretes",
 titulo: "Alertas sobre novas publicações",
-foto: "imagens/veritas.png",
+foto: "veritas.png",
 resumo: "Aviso de postagens.",
 texto: "<p>A empresa planeja adicionar um sistema simples de aviso quando novas notícias forem publicadas.</p>"
 },
