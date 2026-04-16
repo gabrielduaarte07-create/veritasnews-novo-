@@ -127,3 +127,25 @@ footer { background: var(--primary); color: white; padding: 60px 20px; text-alig
     padding: 25px;
   }
 }
+@media (max-width: 480px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .card img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-body h3 {
+    font-size: 13px;
+  }
+
+  .card-body p {
+    font-size: 11px;
+  }
+}
